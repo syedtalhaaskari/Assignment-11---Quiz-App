@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="startQuiz()">
+    <div class="container">
+        <div class="header">
+                Name:&nbsp;
+            <div id="name">
+
+            </div>
+            <div class="empty"></div>
+            <div class="user_score">
+                Score: <span id="score">0</span>
+            </div>
+        </div>
+        <div class="quiz_area">
+            <div id="question">
+
+            </div>
+            <ul
+                ><li class="option marginColumn" onclick="check(this)"></li
+                ><li class="option" onclick="check(this)"></li
+                ><li class="option marginColumn" onclick="check(this)"></li
+                ><li class="option" onclick="check(this)"></li
+            ></ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
